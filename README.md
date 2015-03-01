@@ -28,7 +28,7 @@ And for Dynamic Carrier name, You just add this in statusbar:
 You Can Edit all Carrier name in carrier name settings
 
 
-![ScreenShot](https://db.tt/yhlJvNgu)
+VIDEO PREVIEW DYNAMIC CARRIER NAME
 
 [![PREVIEW](http://img.youtube.com/vi/zU9IzEdpgCM/0.jpg)](http://www.youtube.com/watch?v=zU9IzEdpgCM)
 
