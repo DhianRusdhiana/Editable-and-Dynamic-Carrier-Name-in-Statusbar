@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	android:title="Carrier Name Settings"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:javadron="http://code.google.com/p/javadrone"
+	xmlns:vicha="http://schemas.android.com/apk/res-auto">
+	
+	<PreferenceScreen
+		android:title="Carrier Name 1"
+		android:summary="Clickk here to settings carrier name 1">
+	
+	    <PreferenceCategory
+		    android:title="Your Carrier Name">
+		
+	        <com.dhian.systemui.NavishaEditTextPreference
+		        android:title="Set Your Carrier Name"
+	        	android:summary="%1$s"
+	        	android:key="set_carrier_name" />
+			
+	    </PreferenceCategory>
+		
+	    <PreferenceCategory
+		    android:title="Text Color">
+			
+            <CheckBoxPreference
+	            android:title="Default Color"
+	            android:summary="Use default color of carrier name"
+	            android:defaultValue="true"
+	            android:key="defaultcolor" />
+
+            <com.dhian.systemui.ColorPickerPreference
+	            android:key="carrier_name_color"
+	            alphaSlider="true"
+	            android:defaultValue="0xffffffff" 
+	            android:title="Set Carrier Name Color" 
+	            android:summary="Select color of carrier name" />
+			
+    	</PreferenceCategory>
+		
+    	<PreferenceCategory
+	    	android:title="Font Style">
+			
+        	<CheckBoxPreference
+	        	android:title="Default Font Style"
+         		android:summary="Use default font style of carrier name"
+        		android:defaultValue="true"
+        		android:key="defaultfont" />
+			
+        	<com.dhian.systemui.FontNavisha
+                android:defaultValue="fonts/DroidSans.ttf"
+                android:key="carrier_name_font"
+                android:title="Set Carrier Name Font Style" />
+			
+    	</PreferenceCategory>
+		
+    	<PreferenceCategory
+		android:title="Text Size">
+		
+	        <CheckBoxPreference
+	        	android:title="Default Size"
+	         	android:summary="Use default size of carrier name"
+         		android:defaultValue="true"
+         		android:key="defaultsize" />
+			
+        	<com.dhian.systemui.SeekBarPreferences
+	        	android:key="carrier_name_size"
+	        	android:title="Set Carrier Name Size" 
+        		android:summary="Slide to change carrier name size"
+        		android:defaultValue="16"
+        		android:max="1"
+        		android:persistent="true"
+         		javadron:max="30.0"
+        		javadron:min="10.0"
+        		javadron:interval="1"
+        		javadron:unitsLeft=""
+         		javadron:unitsRight="sp"
+        		javadron:roundValue="true" />
+			
+	    </PreferenceCategory>
+		
+    	<PreferenceCategory
+	    	android:title="Restart">
+			
+	    	<PreferenceScreen
+		    	android:title="Restart SystemUI"
+		    	android:summary="Please Restart SystemUI to apply your carrier name settings"
+	    		android:key="restart_systemui" />
+    	</PreferenceCategory>
+		
+	</PreferenceScreen>
+	
+
+
+	
+	<PreferenceScreen
+		android:title="Carrier Name 2"
+		android:summary="Clickk here to settings carrier name 2">
+
+		<PreferenceCategory
+			android:title="Your Carrier Name 2">
+
+			<com.dhian.systemui.NavishaEditTextPreference
+				android:title="Set Your Carrier Name 2"
+				android:summary="%1$s"
+				android:key="set_carrier_name_2" />
+		</PreferenceCategory>
+		<PreferenceCategory
+			android:title="Text Color">
+			<CheckBoxPreference
+				android:title="Default Color"
+				android:summary="Use default color of carrier name"
+				android:defaultValue="true"
+				android:key="defaultcolor2" />
+
+			<com.dhian.systemui.ColorPickerPreference
+				android:key="carrier_name_color_2"
+				alphaSlider="true"
+				android:defaultValue="0xffffffff" 
+				android:title="Set Carrier Name Color" 
+				android:summary="Select color of carrier name"
+			/>
+		</PreferenceCategory>
+		<PreferenceCategory
+			android:title="Font Style">
+			<CheckBoxPreference
+				android:title="Default Font Style"
+				android:summary="Use default font style of carrier name"
+				android:defaultValue="true"
+				android:key="defaultfont2" />
+			<com.dhian.systemui.FontNavisha
+				android:defaultValue="fonts/DroidSans.ttf"
+				android:key="carrier_name_font_2"
+				android:title="Set Carrier Name Font Style"
+			/>
+		</PreferenceCategory>
+		<PreferenceCategory
+			android:title="Text Size">
+			<CheckBoxPreference
+				android:title="Default Size"
+				android:summary="Use default size of carrier name"
+				android:defaultValue="true"
+				android:key="defaultsize2" />
+			<com.dhian.systemui.SeekBarPreferences
+				android:key="carrier_name_size_2"
+				android:title="Set Carrier Name Size" 
+				android:summary="Slide to change carrier name size"
+				android:defaultValue="16"
+				android:max="1"
+				android:persistent="true"
+				javadron:max="30.0"
+				javadron:min="10.0"
+				javadron:interval="1"
+				javadron:unitsLeft=""
+				javadron:unitsRight="sp"
+				javadron:roundValue="true"
+
+			/>
+		</PreferenceCategory>
+		<PreferenceCategory
+			android:title="Restart">
+			<PreferenceScreen
+				android:title="Restart SystemUI"
+				android:summary="Please Restart SystemUI to apply your carrier name settings"
+				android:key="restart_systemui2" />
+		</PreferenceCategory>
+	</PreferenceScreen>
+	
+	
+	
+	
+	<PreferenceScreen
+		android:title="Carrier Name 3"
+		android:summary="Clickk here to settings carrier name 3">
+
+		<PreferenceCategory
+			android:title="Your Carrier Name 3">
+
+			<com.dhian.systemui.NavishaEditTextPreference
+				android:title="Set Your Carrier Name 3"
+				android:summary="%1$s"
+				android:key="set_carrier_name_3" />
+		</PreferenceCategory>
+		<PreferenceCategory
+			android:title="Text Color">
+			<CheckBoxPreference
+				android:title="Default Color"
+				android:summary="Use default color of carrier name"
+				android:defaultValue="true"
+				android:key="defaultcolor3" />
+
+			<com.dhian.systemui.ColorPickerPreference
+				android:key="carrier_name_color_3"
+				alphaSlider="true"
+				android:defaultValue="0xffffffff" 
+				android:title="Set Carrier Name Color" 
+				android:summary="Select color of carrier name"
+			/>
+		</PreferenceCategory>
+		<PreferenceCategory
+			android:title="Font Style">
+			<CheckBoxPreference
+				android:title="Default Font Style"
+				android:summary="Use default font style of carrier name"
+				android:defaultValue="true"
+				android:key="defaultfont3" />
+			<com.dhian.systemui.FontNavisha
+				android:defaultValue="fonts/DroidSans.ttf"
+				android:key="carrier_name_font_3"
+				android:title="Set Carrier Name Font Style"
+			/>
+		</PreferenceCategory>
+		<PreferenceCategory
+			android:title="Text Size">
+			<CheckBoxPreference
+				android:title="Default Size"
+				android:summary="Use default size of carrier name"
+				android:defaultValue="true"
+				android:key="defaultsize3" />
+			<com.dhian.systemui.SeekBarPreferences
+				android:key="carrier_name_size_3"
+				android:title="Set Carrier Name Size" 
+				android:summary="Slide to change carrier name size"
+				android:defaultValue="16"
+				android:max="1"
+				android:persistent="true"
+				javadron:max="30.0"
+				javadron:min="10.0"
+				javadron:interval="1"
+				javadron:unitsLeft=""
+				javadron:unitsRight="sp"
+				javadron:roundValue="true"
+
+			/>
+		</PreferenceCategory>
+		<PreferenceCategory
+			android:title="Restart">
+			<PreferenceScreen
+				android:title="Restart SystemUI"
+				android:summary="Please Restart SystemUI to apply your carrier name settings"
+				android:key="restart_systemui3" />
+		</PreferenceCategory>
+	</PreferenceScreen>
+	
+	
+	
+	<PreferenceScreen
+		android:title="Carrier Name 4"
+		android:summary="Clickk here to settings carrier name 4">
+
+		<PreferenceCategory
+			android:title="Your Carrier Name 4">
+
+			<com.dhian.systemui.NavishaEditTextPreference
+				android:title="Set Your Carrier Name 4"
+				android:summary="%1$s"
+				android:key="set_carrier_name_4" />
+		</PreferenceCategory>
+		<PreferenceCategory
+			android:title="Text Color">
+			<CheckBoxPreference
+				android:title="Default Color"
+				android:summary="Use default color of carrier name"
+				android:defaultValue="true"
+				android:key="defaultcolor4" />
+
+			<com.dhian.systemui.ColorPickerPreference
+				android:key="carrier_name_color_4"
+				alphaSlider="true"
+				android:defaultValue="0xffffffff" 
+				android:title="Set Carrier Name Color" 
+				android:summary="Select color of carrier name"
+			/>
+		</PreferenceCategory>
+		<PreferenceCategory
+			android:title="Font Style">
+			<CheckBoxPreference
+				android:title="Default Font Style"
+				android:summary="Use default font style of carrier name"
+				android:defaultValue="true"
+				android:key="defaultfont4" />
+			<com.dhian.systemui.FontNavisha
+				android:defaultValue="fonts/DroidSans.ttf"
+				android:key="carrier_name_font_4"
+				android:title="Set Carrier Name Font Style"
+			/>
+		</PreferenceCategory>
+		<PreferenceCategory
+			android:title="Text Size">
+			<CheckBoxPreference
+				android:title="Default Size"
+				android:summary="Use default size of carrier name"
+				android:defaultValue="true"
+				android:key="defaultsize4" />
+			<com.dhian.systemui.SeekBarPreferences
+				android:key="carrier_name_size_4"
+				android:title="Set Carrier Name Size" 
+				android:summary="Slide to change carrier name size"
+				android:defaultValue="16"
+				android:max="1"
+				android:persistent="true"
+				javadron:max="30.0"
+				javadron:min="10.0"
+				javadron:interval="1"
+				javadron:unitsLeft=""
+				javadron:unitsRight="sp"
+				javadron:roundValue="true"
+
+			/>
+		</PreferenceCategory>
+		<PreferenceCategory
+			android:title="Restart">
+			<PreferenceScreen
+				android:title="Restart SystemUI"
+				android:summary="Please Restart SystemUI to apply your carrier name settings"
+				android:key="restart_systemui4" />
+		</PreferenceCategory>
+	</PreferenceScreen>
+	
+	
+	
+</PreferenceScreen>
