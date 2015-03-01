@@ -27,5 +27,5 @@ And for Dynamic Carrier name, You just add this in statusbar:
     
 You Can Edit all Carrier name in carrier name settings
 
-[![ScreenShot](https://raw.github.com/DhianRusdhiana/Editable-and-Dynamic-Carrier-Name-in-Statusbar/master/ressources/Youtube_Video.png)](http://youtu.be/zU9IzEdpgCM)
+[![PREVIEW](http://img.youtube.com/vi/zU9IzEdpgCM/0.jpg)](http://www.youtube.com/watch?v=zU9IzEdpgCM)
 
